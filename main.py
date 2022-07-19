@@ -97,7 +97,7 @@ while True:
         opc2 = input("Ingrese una opcion [1...3]: ")
         if opc2 == '1':
             os.system("cls")
-            notas = OpcSistema("0952482148", "Centro de salud", "42", "Joel Barrionuevo", "Cliente natural", "Servicios JB", "0900405047013")
+            notas = OpcSistema("0952482148", "Centro de salud", "42", "Moises Baquerizo", "Cliente natural", "Servicios JB", "0900405047013")
             notas.mostrarOpcSistemaPersona()
             opc3 = input("Oprime cualquier tecla para ir al menu de inicio: ")
             if opc3 == opc3:
